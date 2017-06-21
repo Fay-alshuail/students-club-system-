@@ -296,7 +296,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#E9365A;}
 
 /* Header */
 #header #logo *{color:inherit;}
-
+.row0 {color:#888888; background:#FFFFFF; Text-align:center;}
 
 /* Content Area */
 .elements figure figcaption{color:#888888; background:#FFFFFF;}
