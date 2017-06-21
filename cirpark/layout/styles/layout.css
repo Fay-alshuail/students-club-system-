@@ -276,7 +276,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#E9365A;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.coloured::after{color:#292B2C; background-color:rgba(233,54,90,.5);/* #E9365A */}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#E9365A; border-color:#E9365A;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#72B7F0; border-color:#72B7F0;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
@@ -290,8 +290,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#E9365A;}
 
 
 /* Flexslider Overrides */
-.flex-control-paging li a{background-color:rgba(233,54,90,1);/* #E9365A */ border-color:rgba(233,54,90,0);/* #E9365A */}
-.flex-control-paging li a.flex-active{background-color:rgba(233,54,90,0);/* #E9365A */ border-color:rgba(233,54,90,1);/* #E9365A */}
+.flex-control-paging li a{background-color:#72B7F0;/* #E9365A */ border-color:rgba(233,54,90,0);/* #E9365A */}
+.flex-control-paging li a.flex-active{background-color:rgba(233,54,90,0);/* #E9365A */ border-color:#72B7F0;/* #E9365A */}
 
 
 /* Header */
@@ -301,14 +301,14 @@ input:focus, textarea:focus, *:required:focus{border-color:#E9365A;}
 /* Content Area */
 .elements figure figcaption{color:#888888; background:#FFFFFF;}
 .elements figure figcaption a{color:inherit; background:inherit;}
-.elements figure:hover figcaption a{color:#FFFFFF; background:#E9365A;}
+.elements figure:hover figcaption a{color:#FFFFFF; background:#72B7F0;}
 
 
 /* Coloured Boxes */
 .clrbox{color:#FFFFFF;}
-.clrbox li:nth-of-type(1){background-color:rgba(24,24,24,.8); /* #181818 */}
-.clrbox li:nth-of-type(2){background-color:rgba(24,24,24,.6); /* #181818 */}
-.clrbox li:nth-of-type(3){background-color:rgba(24,24,24,.4); /* #181818 */}
+.clrbox li:nth-of-type(1){background-color:#72B7F0; /* #181818 */}
+.clrbox li:nth-of-type(2){background-color:#72B7F0; /* #181818 */}
+.clrbox li:nth-of-type(3){background-color:#72B7F0; /* #181818 */}
 
 
 /* Footer */
@@ -343,7 +343,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#E9365A;}
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#E9365A;}
 
-#backtotop{color:#FFFFFF; background-color:#E9365A;}
+#backtotop{color:#FFFFFF; background-color:#72B7F0;}
 
 
 /* Tables + Comments */
