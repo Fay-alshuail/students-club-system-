@@ -35,8 +35,8 @@ File: Layout CSS
 #header{padding:30px 0;}
 #pic1 {width:200px; hight:200px;}
 #pic2 {width:200px; hight:2000px;}
-#header #logo{margin-top:8px; font-variant:small-caps;}
-#header #logo h1{margin:0; padding:0; font-size:26px;}
+#header #logo{margin-top:50px; font-variant:small-caps;}
+#header #logo h1{margin:0; padding:0; font-size:30px;}
 
 #header #quickinfo{font-size:.8rem; text-transform:uppercase;}
 #header #quickinfo li{margin-right:50px;}
