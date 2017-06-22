@@ -52,7 +52,11 @@ File: Layout CSS
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:40px 0;}
+.center {
+    margin: auto;
+    width: 60%;
 
+}
 #pageintro li article > div *{margin:0;}
 #pageintro li article > div:first-child *{margin:10px 0 0 0;}
 
