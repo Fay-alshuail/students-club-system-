@@ -29,7 +29,11 @@ File: Layout CSS
 #topbar .fl_left{margin-top:4px;}
 #topbar .fl_left .inline > li i{margin:0 5px 0 0; line-height:normal;}
 
-
+.login {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:30px 0;}
