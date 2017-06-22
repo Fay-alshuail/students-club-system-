@@ -30,16 +30,42 @@
   </header>
 </div>
 
-  <div class ="row0">
-  <form class ="row0" action = "" method ="get">
-<b> user name :</b>
- <input type = "text" name = "stu_name">
- <b> passwords : </b>
-<input type = "text" name = "stu_age">
-<input type ="submit" name ="log in " >
-  </form>
+<div class="login">
+               <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                   <tr>
+                       <td>
+                           <span class="fontTextMain">نوع الدخول&nbsp;</span>
+                       </td>
+                       <td>
 
-</div>
+
+                           <select id="loginForm:userType" name="loginForm:userType" size="1" title="&#1606;&#1608;&#1593; &#1575;&#1604;&#1583;&#1582;&#1608;&#1604;">	<option value="INVALID">-------------</option>
+<option value="1">&#1591;&#1575;&#1604;&#1576;</option>
+<option value="14">&#1593;&#1590;&#1608; &#1607;&#1610;&#1574;&#1577; &#1578;&#1583;&#1585;&#1610;&#1587;</option>
+</select>
+                       </td>
+                       <td width="20"></td>
+                       <td>
+                           <span class="fontTextMain">&nbsp;&nbsp;اسم المستخدم&nbsp;</span>
+                           <input id="loginForm:username" type="text" name="loginForm:username" value="" onfocus="javascript:userNameFocus();" onkeypress="javascript:onFormKeyPress(event);" size="12" title="&#1575;&#1587;&#1605; &#1575;&#1604;&#1605;&#1587;&#1578;&#1582;&#1583;&#1605;" />
+                       </td>
+                       <td>
+                           <span class="fontTextMain">&nbsp;&nbsp;كلمة السر&nbsp;</span>
+                           <input id="loginForm:password" type="password" name="loginForm:password" value="" onkeypress="javascript:onFormKeyPress(event);" size="12" title="&#1603;&#1604;&#1605;&#1577; &#1575;&#1604;&#1587;&#1585;" />
+                       </td>
+                       <td width="10px">&nbsp;</td>
+                       <td>
+                           <a id="loginForm:loginButton" href="javascript:userTypeSelect();" title="&#1583;&#1582;&#1608;&#1604;" class="loginButton"></a>
+                           <a id="loginForm:loginUsersLink" href="#" onclick="clearFormHiddenParams_loginForm('loginForm');document.forms['loginForm']['loginForm:_idcl'].value='loginForm:loginUsersLink'; document.forms['loginForm'].submit(); return false;"></a>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td colspan="5" align="center">
+
+                       </td>
+                   </tr>
+               </table>
+           </div>
 <div class="wrapper row2">
   <nav id="mainav" class="hoc clear">
     <ul class="clear">
