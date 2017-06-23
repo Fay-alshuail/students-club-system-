@@ -277,7 +277,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#E9365A;}
 .row2{color:#FFFFFF; background-color:#72B7F0;}
 .row3{color:#888888; background-color:#FFFFFF;}
 .row4{color:#888888; background-color:#EEEEEE;}
-.row5, .row5 a{color:#888888; background-color:#EEEEEE;}
+.row5, .row5 a{color:#888888; background-color:#FFFFFF;}
 
 
 /* Flexslider Overrides */
