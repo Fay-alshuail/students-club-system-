@@ -256,25 +256,11 @@ td{border-width:0 1px;}
 .faico a{color:inherit; background-color:#DADADA;}
 
 .faico a:hover{color:#FFFFFF;}
-.faicon-dribble:hover{background-color:#EA4C89;}
-.faicon-facebook:hover{background-color:#3B5998;}
-.faicon-google-plus:hover{background-color:#DB4A39;}
-.faicon-linkedin:hover{background-color:#0E76A8;}
-.faicon-pinterest:hover{background-color:#C8232C;}
-.faicon-rss:hover{background-color:#EE802F;}
-.faicon-twitter:hover{background-color:#00ACEE;}
-
 
 /* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
-
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#888888; background-color:#EEEEEE;}
+body{color:#888888; background-color:#FFFFFF;}
 a{color:#E9365A;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
