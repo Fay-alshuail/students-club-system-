@@ -30,6 +30,7 @@ File: Layout CSS
 #topbar .fl_left .inline > li i{margin:0 5px 0 0; line-height:normal;}
 
 .login {
+  background-color:#FFFFFF
     margin: auto;
     width: 75%;
     padding: 10px;
@@ -55,7 +56,7 @@ File: Layout CSS
 .center {
     margin: auto;
     width: 60%;
-    
+
 }
 #pageintro li article > div *{margin:0;}
 #pageintro li article > div:first-child *{margin:10px 0 0 0;}
