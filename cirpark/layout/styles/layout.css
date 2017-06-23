@@ -53,6 +53,13 @@ File: Layout CSS
     width: 60%;
 
 }
+.centered {
+ margin: auto;
+ width: 100%;
+}
+
+
+
 #pageintro li article > div *{margin:0;}
 #pageintro li article > div:first-child *{margin:10px 0 0 0;}
 
