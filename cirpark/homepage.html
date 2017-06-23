@@ -29,10 +29,17 @@
     </div>
   </header>
 </div>
-<div style="margin: 15px 0px 0px; width: 200px; text-align: center; display: inline-block;">
-  <noscript><div style="margin: 0px 0px 5px; padding: 2px 4px; border: 1px solid rgb(204, 204, 204); border-image: none; text-align: center; display: inline-block; background-color: transparent;">
-    <a style="color: rgb(7, 3, 3); font-size: 13px; text-decoration: none;" href="http://localtimes.info/Asia/Saudi_Arabia/Riyadh/"><img style="border:0;margin:0;padding:0"="" border=0="" src="http://localtimes.info/images/countries/sa.png"=""> Riyadh</a></div></noscript><script src="http://localtimes.info/clock.php?continent=Asia&country=Saudi Arabia&cp1_Hex=070303&cp2_Hex=c9dfee&cp3_Hex=7c7b85&fwdt=200&ham=0&hbg=1&hfg=0&sid=0&mon=1&wek=0&wkf=1&sep=0&widget_number=1100" type="text/javascript">null</script>
+<div class="block block-hijri first last odd" id="block-hijri-hijri">
+
+
+  <div class="content">
+    <div class="hijri-date">الجمعة 29 رمضان  1438 هـ الموافق يونيو 23, 2017 م</div>
+  </div>
+
+<embed allowscriptaccess="never" width="140" height="55" src="http://www.shammel.net/vb/jori/misc/flip_clock_black_12.swf" wmode="transparent"/>
+
 </div>
+
 <div id=Date ></div>
 <div class="login">
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -183,38 +190,50 @@
 
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script>
 
-  var currentDate = new Date(),
-      day = currentDate.getDate(),
-      month = currentDate.getMonth() + 1,
-      year = currentDate.getFullYear();
-  document.write(day + "/" + month + "/" + year)
-  var date1 = document.getElementById("Date").innerHTML;
-  document.Write(date1);
+<script type="text/javascript" src="/sites/all/themes/portal/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/portal/css/jquery-ui.css">
+</div>
+
+</div></form>
+</div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+                </div>
+
+
+<script type="text/javascript">
+
+jQuery(function() {
+function log( message ) {
+jQuery( "<div>" ).text( message ).prependTo( "#log" );
+jQuery( "#log" ).scrollTop( 0 );
+}
+jQuery( "#suggest" ).autocomplete({
+source: function( request, response ) {
+jQuery.ajax({
+url: "//212.57.195.179/suggest?max_matches=6&use_similar=0&client=default_frontend&site=default_collection",
+dataType: "jsonp",
+data: "token="+request.term,
+success: function( data ) {
+response(data);
+}
+});
+},
+minLength: 2,
+open: function() {
+jQuery( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+},
+close: function() {
+jQuery( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+}
+});
+});
+
+
 </script>
-<script>
-var date2 = document.getElementById("Date").innerHTML;
-document.Write(date2);
-	var currentTime = new Date(),
-      hours = currentTime.getHours(),
-      minutes = currentTime.getMinutes();
 
-	if (minutes < 10) {
-	 minutes = "0" + minutes;
-  }
-
-	var suffix = "AM";
-	if (hours >= 12) {
-    suffix = "PM";
-    hours = hours - 12;
-	}
-	if (hours == 0) {
-	 hours = 12;
-	}
-
-	document.write(hours + ":" + minutes + " " + suffix)
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
